@@ -1,0 +1,5 @@
+export { default as MeComponent } from "./landing/me/me"
+export { default as AboutMeComponent } from "./landing/about-me/about-me"
+export { default as ContactMeComponent } from "./landing/contact-me/contact-me"
+export { default as MyProjectsComponent } from "./landing/projects/my-projects"
+export { default as MyExperienceComponent } from "./landing/work-experience/my-experience"
