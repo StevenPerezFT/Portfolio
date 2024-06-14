@@ -8,10 +8,10 @@ import Projects from "@/components/landing/projects/my-projects";
 export default function Home() {
   return (
     <main className="lg:grid lg:place-items-center  flex justify-center items-center">
-      <div className="p-6 max-w-max flex flex-col">
-        <div className="mt-20 md:mt-0 grid grid-cols-1 md:grid md:grid-cols-2  md:items-center  md:ml-10">
+      <div className="p-6 max-w-max flex flex-col md:mt-20">
+        <div className="mt-20 md:my-20 grid grid-cols-1 md:grid md:grid-cols-2  md:items-center  md:mx-10">
           <AboutMe />
-          <div className="mt-0 md:mt-20 flex justify-center items-center">
+          <div className="mt-0 flex justify-center items-center">
           <Photo />
           </div>
         </div>
