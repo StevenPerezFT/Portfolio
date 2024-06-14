@@ -9,14 +9,16 @@ export default function Home() {
   return (
     <main className="lg:grid lg:place-items-center  flex justify-center items-center">
       <div className="p-6 max-w-max flex flex-col">
-        <div className="py-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="mt-20 md:mt-0 grid grid-cols-1 md:grid md:grid-cols-2  md:items-center  md:ml-10">
           <AboutMe />
+          <div className="mt-0 md:mt-20 flex justify-center items-center">
           <Photo />
+          </div>
         </div>
         <Technologies />
-        <section className="py-10 w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:flex lg:justify-around place-items-center ">
+        <section className=" mt-28 w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:flex lg:justify-around place-items-center ">
           <WorkExperience />
-          <div className="flex justify-end items-end md:pt-40 md:pl-20">
+          <div className="flex justify-end items-end md:pt-40 md:mr-12">
             <Card header="Featured tasks" body="I implement the backend infrastructure of multiple projects. Additionally I developed the frontend and backend of the backoffice using technologies such as Tanstack and AWS S3 Lamba." />
           </div>
         </section>

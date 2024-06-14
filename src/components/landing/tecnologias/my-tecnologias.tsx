@@ -4,7 +4,7 @@ function Technologies() {
     return (
         <>
             <h2 className="py-10 text-3xl font-bold mb-4 md:pl-5 flex justify-center transition-all duration-700 hover:scale-110">Technologies I use</h2>
-            <div className="my-6 p-1  bg-customColor4-500 rounded-xl ">
+            <div className="my-6 p-1 bg-customColor4-500 rounded-xl ">
 
                 <section>
                     <ul className="md:px-8 list-disc list-inside grid grid-cols-4 items-center lg:flex lg:justify-between bg-customColor1-500 rounded-lg border-2 border-customColor1-700">
