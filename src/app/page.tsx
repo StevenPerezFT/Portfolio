@@ -18,11 +18,7 @@ export default function Home() {
         <Technologies />
         <section className=" mt-28 w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:flex lg:justify-around place-items-center ">
           <WorkExperience />
-<<<<<<< HEAD
           <div className="flex justify-end items-end md:pt-40 md:mr-12">
-=======
-          <div className="flex justify-end items-end md:pt-40 md:pl-20 px-3 md:px-0">
->>>>>>> 45ca3c9521562be24d4cb6b2150107f64c4ba3ab
             <Card header="Featured tasks" body="I implement the backend infrastructure of multiple projects. Additionally I developed the frontend and backend of the backoffice using technologies such as Tanstack and AWS S3 Lamba." />
           </div>
         </section>
