@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <main className="lg:grid lg:place-items-center  flex justify-center items-center">
       <div className="p-6 max-w-max flex flex-col md:mt-20">
-        <div className="mt-20 md:my-20 grid grid-cols-1 md:grid md:grid-cols-2  md:items-center  md:mx-10">
+        <div className="pt-20  md:pt-12 grid grid-cols-1  md:flex md:justify-center md:items-center">
           <AboutMe />
-          <div className="mt-0 flex justify-center items-center">
+          <div className="mt-10 flex justify-center items-center md:pl-5">
           <Photo />
           </div>
         </div>

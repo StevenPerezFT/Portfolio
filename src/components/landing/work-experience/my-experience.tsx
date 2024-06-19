@@ -1,7 +1,7 @@
 function WorkExperience() {
     return (
         <div>
-            <h2 className="pb-10 text-3xl font-bold mb-4 transition-all duration-700 hover:scale-110">Work experience</h2>
+            <h2 className="pb-16 text-3xl font-bold mb-4 transition-all duration-700 hover:scale-110">Work experience</h2>
             <section className="my-6 bg-customColor1-200 p-6 border-2 border-customColor3-900 rounded-lg md:ml-10">
                 <div >
                     <p className="text-xl font-semibold pb-4">Code Pocket</p>
