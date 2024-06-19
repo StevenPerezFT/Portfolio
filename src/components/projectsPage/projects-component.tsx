@@ -166,13 +166,131 @@ export default function ProjectComponent() {
                                 Therefore the visual area is not being developed.
                             </p>
                             <li className="ml-2">
-                                Implement the visual area with what is necessary to access the application and to send and receive messages.
+                                I implemented the visual area with what is necessary to access the application and to send and receive messages.
                             </li>
                             <li className="ml-2">
-                                Use Next Js to use the react library router.
+                                I used Next Js to use the react library router.
                             </li>
                         </div>
 
+                    </div>
+                </section >
+
+
+                <section className="w-full flex pl-5 md:px-20">
+                    <p className="pt-28 text-5xl">
+                        Translate
+                    </p>
+                </section>
+                <section className="flex w-full px-5 justify-center  pt-10 md:pt-10 text-lg ">
+                    <div className="flex  flex-col text-base">
+                        <p className="flex w-full justify-center text-2xl md:justify-start  md:text-4xl text-customColor1-900 mb-4">
+                            MVP
+                        </p>
+                        <p className="max-w-screen-xl pb-2">
+                            This project is aimed at translating texts.
+                            For this project I focused only on the frontend area so the backend area is very simple and to achieve that I used a free translation api so it is very limited how many translations you can do.
+                        </p>
+                        <div className="md:pl-4">
+                            <li>
+                                Create the graphical interface.
+                            </li>
+                            <li>
+                                Implement the states necessary for the project to function.
+                            </li>
+                            <li>
+                                Implement the backend logic to translate the texts.
+                            </li>
+
+                        </div>
+                        <p className="md:justify-start  md:text-4xl flex w-full justify-center text-2xl text-customColor1-900 mt-8 mb-4">
+                            Graphic interface
+                        </p>
+                        <p>
+                            To make the interface I used Google's text translator as a guide.
+                        </p>
+
+
+                        <div className="mt-8 mb-4 flex flex-col justify-center items-center md:grid md:grid-cols-2 md:mx-20" >
+                            <Image src='/translateSmVersion.jpg' width={200} height={200} alt="Image of the translate sm version" className="m-2"
+                            />
+                            <Image src='/trasnlateLgVersion.jpg' width={500} height={200} alt="Image of the translate lg version" className="m-2"
+                            />
+                        </div>
+
+                        <p className="md:justify-start  md:text-4xl flex w-full justify-center text-xl text-customColor1-900 mt-8 mb-4">
+                            Functionality
+                        </p>
+                        <div className="md:pl-10">
+                            <p>
+                                To achieve the functionality of the project I used a reducer to more easily implement each functionality without having to use a useState..
+                            </p>
+
+                            <p className="mt-2 mb-4 text-customColor1-900 text-xl pt-2">
+                                Why a reducer?
+                            </p>
+                            <aside>
+                                <p>
+                                    The reason is that reducers have the advantage that they can have many states in one place with their own logic.
+                                    <br />
+                                    This makes the code more organized and in one place.
+                                </p>
+                            </aside>
+                        </div>
+                        <p className="md:justify-start  md:text-4xl text-lg text-customColor1-900 mt-5 mb-4">
+                            Backend
+                        </p>
+                        <div className="md:pl-10">
+
+                            <p className="mb-4">
+                                For the backend I had the option of creating only one service in the frontend but doing that could lead to a security problem and
+                                <br />
+                                although I used a free
+                                API that did not need a key, it is better to create a small backend and thus keep the application secure.
+                            </p>
+                            <p className="mb-4">
+                                For the backend I had the option of creating only one service in the frontend but doing that could lead to a security problem and although
+                                <br />
+                                I used a free API that did not need a key, it is better to create a small backend and thus keep the application secure.
+                            </p>
+                            <p className="mt-2 mb-4 text-customColor1-900 text-xl pt-2">
+                                API
+                            </p>
+                            <div className="ml-2">
+                                <li>
+                                    The API I used was @vitalets/google-translate-api. I used it because it is free.
+                                </li>
+                            </div>
+
+                        </div>
+
+                        <p className="md:justify-start  md:text-4xl flex w-full justify-center text-2xl text-customColor1-900 mt-8 mb-4">
+                            Backend y frontend
+                        </p>
+                        <div className="md:pl-10">
+                            <p className="mb-3">
+                                At this point I just needed to connect the services.
+                            </p>
+                            <p className="mb-3">
+                                But I found a problem and it is at the time of writing in the frontend each word could be a request to the backend this could be a serious problem since on a
+                                <br />
+                                large scale the server could stop working.
+                            </p>
+
+                            <p className="text-customColor1-900 text-xl my-2 ">
+                                Solution
+                            </p>
+                            <p className="ml-2">
+                                To solve this problem, many strategies can be implemented. I opted for the implementation of a Debounce.
+                                <br />
+                                And basically what it does is create a delay between each value it receives.
+                            </p>
+
+                        </div>
+
+                        <p className="mb-10 mt-2">
+                            With this done and the connection completed, the project ends.
+                        </p>
                     </div>
                 </section >
                 <section className="w-full flex pl-5 md:px-20">
@@ -181,31 +299,29 @@ export default function ProjectComponent() {
                     </h6>
                 </section>
 
-
                 <section className="px-5">
-                    <p className="w-full  md:ml-20 py-10">
+                    <p className="w-auto md:ml-20 py-10">
                         Each game is developed with HTML, JavaScript and Canvas.
                     </p>
                     <div className="w-full md:flex md:flex-col md:justify-center md:items-center">
                         <div >
-                            <p className="md:justify-start  md:text-4xl flex w-full justify-center text-2xl text-customColor1-900 mt-8 mb-4">
+                            <p className="md:justify-start  md:text-4xl flex w-full justify-center text-2xl text-customColor1-900  mb-8">
                                 Pong game
                             </p>
 
                             <div className="pb-10">
                                 <Image src="/Pong-Game.jpg" width={800} height={800} alt="Pong game screenShot" />
                             </div>
-                            <p className="md:justify-start  md:text-4xl flex w-full justify-center text-2xl text-customColor1-900 mt-8 mb-4">
+                            <p className="md:justify-start  md:text-4xl flex w-full justify-center text-2xl text-customColor1-900 mt-8 mb-8">
                                 Snake Game
                             </p>
-                            <div className="w-full flex justify-end items-end mb-10">
+                            <div className="w-full flex justify-end items-end pb-10">
                                 <Image src="/snake-game.jpg" width={800} height={800} alt="Snake game screenShot" />
                             </div>
                         </div>
-
                     </div>
                 </section>
-            </div >
+            </div>
         </>
     )
 }

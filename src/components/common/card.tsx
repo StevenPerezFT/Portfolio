@@ -17,7 +17,7 @@ const Card: FC<ICard> = ({ header, body, tags, links }) => {
                 <p className="text-base text-porfolioYellow-400">{body}</p>
             </div>
             {tags && tags.length > 0 && (
-                <div className="px-6 pt-4 pb-2">
+                <div className="px-1 pt-4 pb-2">
                     {tags.map((tag, index) => (
                         <span
                             key={index}
