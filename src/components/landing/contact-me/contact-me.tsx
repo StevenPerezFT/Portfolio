@@ -4,7 +4,7 @@ import QRCodeEmail from "@/components/common/qr";
 function Contact() {
     return (
         <div className="w-full" id="contact-me" >
-            <h2 className="text-porfolioBlue-100  text-2xl font-bold mb-4 ">Contact</h2>
+            <h2 className="text-porfolioBlue-100  text-2xl font-bold mb-4 ">Contact and links</h2>
             <section className="w-full pb-5 ">
                 <div className="justify-around flex">
                     <span className="grid place-items-center mx-5">

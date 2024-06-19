@@ -14,7 +14,7 @@ export default function Navigation() {
                         <li className="w-full md:flex md:items-center md:justify-center">
                             <Link
                                 href="/"
-                                className="px-2 md:px-4 md:py-2 text-bl text-customColor3-900 block hover:bg-customColor3-500 lg:bg-customColor3-500 py-1  rounded-lg"
+                                className="px-2 md:px-4 md:py-2 text-bl text-customColor3-900 block hover:bg-customColor3-500 md:bg-customColor3-500 py-1  rounded-lg"
                             >
                                 About me
                             </Link>
@@ -23,7 +23,7 @@ export default function Navigation() {
                         <li className="w-full md:flex md:items-center md:justify-center">
                             <Link
                                 href="/#contact-me"
-                                className="px-2 md:px-4 md:py-2 text-bl text-customColor3-900 block hover:bg-customColor3-500 lg:bg-customColor3-500 py-1 rounded-lg"
+                                className="px-2 md:px-4 md:py-2 text-bl text-customColor3-900 block hover:bg-customColor3-500 md:bg-customColor3-500 py-1 rounded-lg"
                             >
                                 Contact me
                             </Link>
