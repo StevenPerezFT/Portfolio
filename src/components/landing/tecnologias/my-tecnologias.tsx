@@ -3,7 +3,7 @@ import Image from "next/image";
 function Technologies() {
     return (
         <>
-            <h2 className="py-10 text-3xl font-bold mb-4 md:pl-5 flex justify-center transition-all duration-700 hover:scale-110">Technologies I use</h2>
+            <h2 className="py-16 text-3xl font-bold mb-4 md:pl-5 flex justify-center transition-all duration-700 hover:scale-110">Technologies I use</h2>
             <div className="my-6 p-1 bg-customColor4-500 rounded-xl ">
 
                 <section>

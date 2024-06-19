@@ -8,7 +8,7 @@ export default function Projects() {
             <section className="py-20  rounded-lg flex justify-center">
                 <h2 className="text-3xl font-bold text-porfolioBlue-100 transition-all duration-700 hover:scale-110">Projects</h2>
             </section>
-            <div className=" grid md:flex md:grid-cols-3 gap-10 justify-around mb-10 ">
+            <div className=" grid  md:grid-cols-2 lg:grid-cols-3 gap-10 justify-around mb-10 ">
                 <div className="py-3">
                     <Card header="Chat"
                         body="In this project I have created a real-time chat. As an additional fact I only focused on the backend so the frontend is really basic." tags={['TypeScript', 'NestJS', 'JWT', 'Next.js', 'Prisma', 'Socket.IO']} links={["https://github.com/StevenPerezFT/Chat"]} />
