@@ -23,6 +23,14 @@ function Contact() {
                             <QRCodeEmail link="https://github.com/StevenPerezFT" size={70} />
                         </div>
                     </span>
+                    <span className="grid place-items-center mx-5">
+                        <p className="pb-4 text-porfolioOrange-200">
+                            My CV
+                        </p>
+                        <div className="border-2">
+                            <QRCodeEmail link="https://drive.google.com/file/d/11waHkFnS_Dpj_5hYw6qFGQ0Z2uGCQcYk/view?usp=sharing" size={70} />
+                        </div>
+                    </span>
                 </div>
             </section>
         </div>
