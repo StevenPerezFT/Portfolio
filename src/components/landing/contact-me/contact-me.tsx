@@ -38,10 +38,10 @@ function Contact() {
                             My CV
                         </p>
                         <div className="border-2">
-                            <QRCodeEmail link="https://drive.google.com/file/d/11waHkFnS_Dpj_5hYw6qFGQ0Z2uGCQcYk/view?usp=sharing" size={70} />
+                            <QRCodeEmail link="https://drive.google.com/file/d/1jkJwILYE6sBxR7-CrAEfsElGrf5KRHCh/view?usp=sharing" size={70} />
                         </div>
                         <Divider plain>o</Divider>
-                        <Button type="link" href="https://drive.google.com/file/d/11waHkFnS_Dpj_5hYw6qFGQ0Z2uGCQcYk/view?usp=sharing">
+                        <Button type="link" href="https://drive.google.com/file/d/1jkJwILYE6sBxR7-CrAEfsElGrf5KRHCh/view?usp=sharing">
                             <BookOutlined style={{ fontSize: '25px', color: 'black' }} />
                         </Button>
                     </span>
