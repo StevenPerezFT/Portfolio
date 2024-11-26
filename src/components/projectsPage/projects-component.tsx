@@ -5,13 +5,11 @@ export default function ProjectComponent() {
     return (
         <>
             <div className="max-w-full max-h-screen">
-                <section className="w-full flex pl-5 md:px-20">
-                    <h6 className="pt-28 text-5xl">
-                        Chat
-                    </h6>
-                </section>
                 <section className="flex w-full px-5 justify-center pt-10 md:pt-10 text-lg ">
                     <div className="flex  flex-col text-base">
+                        <h6 className="pt-24 pb-10 text-6xl">
+                            Chat
+                        </h6>
                         <p className="flex w-full justify-center text-2xl md:justify-start  md:text-4xl text-customColor1-900 mb-4">
                             MVP
                         </p>
@@ -175,15 +173,11 @@ export default function ProjectComponent() {
 
                     </div>
                 </section >
-
-
-                <section className="w-full flex pl-5 md:px-20">
-                    <p className="pt-28 text-5xl">
-                        Translate
-                    </p>
-                </section>
                 <section className="flex w-full px-5 justify-center  pt-10 md:pt-10 text-lg ">
                     <div className="flex  flex-col text-base">
+                        <h6 className="pt-12 pb-8 text-6xl">
+                            Translate
+                        </h6>
                         <p className="flex w-full justify-center text-2xl md:justify-start  md:text-4xl text-customColor1-900 mb-4">
                             MVP
                         </p>
@@ -248,11 +242,6 @@ export default function ProjectComponent() {
                                 although I used a free
                                 API that did not need a key, it is better to create a small backend and thus keep the application secure.
                             </p>
-                            <p className="mb-4">
-                                For the backend I had the option of creating only one service in the frontend but doing that could lead to a security problem and although
-                                <br />
-                                I used a free API that did not need a key, it is better to create a small backend and thus keep the application secure.
-                            </p>
                             <p className="mt-2 mb-4 text-customColor1-900 text-xl pt-2">
                                 API
                             </p>
@@ -291,20 +280,19 @@ export default function ProjectComponent() {
                         <p className="mb-10 mt-2">
                             With this done and the connection completed, the project ends.
                         </p>
+                        <h6 className="pt-16 text-5xl">
+                            Games
+                        </h6>
+                        <p className="w-auto md:ml-20 py-10">
+                            Each game is developed with HTML, JavaScript and Canvas.
+                        </p>
                     </div>
                 </section >
-                <section className="w-full flex pl-5 md:px-20">
-                    <h6 className="pt-16 text-5xl">
-                        Games
-                    </h6>
-                </section>
 
                 <section className="px-5">
-                    <p className="w-auto md:ml-20 py-10">
-                        Each game is developed with HTML, JavaScript and Canvas.
-                    </p>
                     <div className="w-full md:flex md:flex-col md:justify-center md:items-center">
                         <div >
+                            
                             <p className="md:justify-start  md:text-4xl flex w-full justify-center text-2xl text-customColor1-900  mb-8">
                                 Pong game
                             </p>

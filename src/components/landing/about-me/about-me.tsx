@@ -8,7 +8,7 @@ function AboutMe() {
                     <br />
                     I was introduced to programming by reading a book called 'Programming Logic' and even though I didn't understand anything, I was fascinated by the idea of ​​one day being able to understand it and create something by myself. I was 15 years old.
                     <br />
-                    Now, 5 years later, I can say that this goal has been achieved and even though I'm just starting out, I hope to one day I can be able to share what I know with the world.</p>
+                    Now, 5 years later, I can say that this goal has been achieved and even though I'm just starting out, I hope to one day I can be able to share what I know in the world.</p>
             </section>
         </div>
 
