@@ -5,7 +5,7 @@ import { Button, Divider } from "antd";
 
 function Contact() {
     return (
-        <footer className="w-full" id="contact-me">
+        <footer className="w-full h-full" id="contact-me">
             <h2 className="text-porfolioBlue-100  text-2xl font-bold mb-10 ">Contact and links</h2>
             <section className="w-full pb-5 ">
                 <div className="justify-around flex">
@@ -41,7 +41,7 @@ function Contact() {
                             <QRCodeEmail link="https://drive.google.com/file/d/1jkJwILYE6sBxR7-CrAEfsElGrf5KRHCh/view?usp=sharing" size={70} />
                         </div>
                         <Divider plain>o</Divider>
-                        <Button type="link" href="https://drive.google.com/file/d/1jkJwILYE6sBxR7-CrAEfsElGrf5KRHCh/view?usp=sharing">
+                        <Button type="link" href="https://drive.google.com/file/d/1nfrfCKfBi1dZgfLgnn1mAm0UVAYFgg4B/view?usp=sharing">
                             <BookOutlined style={{ fontSize: '25px', color: 'black' }} />
                         </Button>
                     </span>
