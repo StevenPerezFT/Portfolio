@@ -29,6 +29,9 @@ function Technologies() {
                         <li className="flex justify-center p-5 md:p-8">
                             <Image src='/postgresql.svg' alt="postgresql icon" width="70" height="50" className="transition-all duration-700  hover:scale-110" />
                         </li>
+                        <li className="flex justify-center p-5 md:p-8">
+                            <Image src='/react.svg' alt="postgresql icon" width="70" height="50" className="transition-all duration-700  hover:scale-110" />
+                        </li>
                     </ul>
                 </section>
             </div>
